@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles/12r.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body>
+    <div class="container">
+      <p class="title">Rock Paper Scissors</p>
+      <div class="rps-container">
+        <button class="move-button js-rock-button">
+          <img src="img/rock-emoji.png" class="move-icon" />
+        </button>
+        <button class="move-button js-paper-button">
+          <img src="img/paper-emoji.png" class="move-icon" />
+        </button>
+        <button class="move-button js-scissors-button">
+          <img src="img/scissors-emoji.png" class="move-icon" />
+        </button>
+      </div>
+      <p class="js-result result"></p>
+      <p class="js-moves"></p>
+      <p class="js-score score"></p>
+      <div class="buttins-container">
+        <button class="reset-score-button js-rest-button">Reset Score</button>
+        <button class="auto-play-button js-auto-play-button">Auto Play</button>
+      </div>
+      <p class="js-reset-confirmation"></p>
+
+      <p>Q: Rock / W: Paper / E: scissors / A: Auto play / Esc: Reset score</p>
+    </div>
+    <script src="scripts/12r.js"></script>
+  </body>
+</html>
